@@ -43,3 +43,7 @@ Convert kernel32 to proxy functionality for wkscli
 > whoami.exe
 COMPUTER\User
 ```
+## Example1
+```
+NetClone\\NetClone.exe --target Bin\\brownie_x64.dll --reference C:\\Windows\\System32\\%1.dll -o Bin\\%1.dll
+```
